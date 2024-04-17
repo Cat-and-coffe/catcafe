@@ -1,11 +1,13 @@
 .testimonios{
     font-family: 'Montserrat', sans-serif;
     font-size: 90%;
-    margin-bottom: 40px;
+    margin-bottom: 5%;
 }
 .titulo-testimonios {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .individual {
     width: 18rem;
@@ -25,6 +27,7 @@ footer {
     font-family: "Playfair Display", serif;
     font-weight: bold;
     color: #645555;
+    padding-top: 3%;
 }
 .btn-enviar{
     background-color: #E4B1B1;
