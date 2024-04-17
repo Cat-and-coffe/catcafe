@@ -4,6 +4,14 @@
     color: #645555;
 }
 
+.navbar-brand{
+    font-size: 27px;
+}
+
+.img-logo{
+    margin: 0px 20px 0px 40px;
+}
+
 .img-principal {
     background-image: url(../assets/img/banner.jpeg);
     background-color: rgb(158, 163, 163);
