@@ -40,3 +40,7 @@ footer {
 .campo {
     font-family: 'Montserrat', sans-serif;
 }
+.datos {
+    width: 18rem;
+    height: 14rem;
+}
