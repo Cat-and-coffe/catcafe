@@ -3,3 +3,26 @@
     font-weight: bold;
     color: #645555;
 }
+
+.img-principal {
+    background-image: url(../assets/img/banner.png);
+    background-blend-mode: soft-light;
+    background-position:top ;
+    background-size:auto;
+    height: 90vh;
+ }
+
+ .texto-principal{
+    font-family: 'Playfair Display', serif !important;
+    font-weight: bold;
+    color: black;
+    font-size: 80px;
+    margin-bottom: 30px;
+ }
+
+ .eslogan{
+    font-family: 'Playfair Display', serif !important;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+ }
