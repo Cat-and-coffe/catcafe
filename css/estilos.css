@@ -10,7 +10,8 @@
     background-blend-mode:soft-light;
     background-position:top ;
     background-size:auto;
-    height: 100vh;
+    margin-top: 26px;
+    height: 96vh;
  }
 
  .texto-principal{
