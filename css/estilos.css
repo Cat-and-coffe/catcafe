@@ -5,12 +5,12 @@
 }
 
 .img-principal {
-    background-image: url(../assets/img/banner.png);
-    background-blend-mode: soft-light;
+    background-image: url(../assets/img/banner.jpeg);
+    background-color: rgb(158, 163, 163);
+    background-blend-mode:soft-light;
     background-position:top ;
     background-size:auto;
-    margin-top: 69px;
-    height: 90vh;
+    height: 100vh;
  }
 
  .texto-principal{
