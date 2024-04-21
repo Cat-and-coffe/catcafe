@@ -4,23 +4,26 @@ p {
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
 }         
-         
-.img-class{
+/*Section1*/         
+.img-container-casa-gatito{
     width: 100%;
 }
 
 .img-container{
     max-height: 800;
 }
+/*Section1*/
 
-.img-card-container{
-    height: 500px;
-    width: 100%;
-}
+/*Section2*/
 
 .card-container{
     height: 100% !important;
     
+}
+
+.img-card-container{
+    height: 500px;
+    width: 100%;
 }
 
 .card-img-top{
@@ -46,4 +49,4 @@ p {
 .btn-show-all{
     width: 20rem;
 }
-
+/*Section2*/
