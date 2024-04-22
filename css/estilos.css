@@ -56,3 +56,55 @@
     color: black;
     font-size: 25px;
  }
+
+/*Section cards*/   
+p { 
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}         
+/*Section1*/         
+.img-container-casa-gatito{
+    width: 100%;
+}
+
+.img-container{
+    max-height: 800;
+}
+/*Section1*/
+
+/*Section2*/
+
+.card-container{
+    height: 100% !important;
+    
+}
+
+.img-card-container{
+    height: 500px;
+    width: 100%;
+}
+
+.card-img-top{
+    height: 100%;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn-adoption{
+    width: 10rem;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-show-all{
+    width: 20rem;
+}
+/*Section2*/
