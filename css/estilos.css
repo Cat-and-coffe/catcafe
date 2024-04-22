@@ -25,6 +25,10 @@
     height: 96vh;
  }
 
+ .container{
+    margin-top: 60px;
+ }
+
  .img-secundaria {
     background-image: url(../assets/img/img-sec.jpeg);
     background-color: rgb(158, 163, 163);
