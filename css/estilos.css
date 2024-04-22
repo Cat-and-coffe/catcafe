@@ -12,13 +12,16 @@
     margin: 0px 20px 0px 40px;
 }
 
+.carousel{
+    margin-top: 50px;
+}
+
 .img-principal {
     background-image: url(../assets/img/banner.jpeg);
     background-color: rgb(158, 163, 163);
     background-blend-mode:soft-light;
     background-position:top ;
     background-size:auto;
-    margin-top: 26px;
     height: 96vh;
  }
 
@@ -28,7 +31,6 @@
     background-blend-mode:soft-light;
     background-position:top ;
     background-size:cover;
-    margin-top: 10px;
     height: 98vh;
  }
 
@@ -38,7 +40,6 @@
     background-blend-mode:soft-light;
     background-position:top ;
     background-size:cover;
-    margin-top: 10px;
     height: 98vh;
  }
 
