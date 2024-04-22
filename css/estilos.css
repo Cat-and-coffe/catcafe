@@ -108,3 +108,51 @@ p {
     width: 20rem;
 }
 /*Section2*/
+
+/*Final section*/
+.testimonios{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90%;
+    margin-bottom: 5%;
+}
+.titulo-testimonios {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.individual {
+    width: 18rem;
+    height: 30rem;
+}
+footer {
+    background-color: #E4B1B1;
+    color: #645555;
+}
+.list-unstyled{
+    color:white;
+}
+.list-unstyled a{
+    color:white;
+}
+.marca {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    color: #645555;
+    padding-top: 3%;
+}
+.btn-enviar{
+    background-color: #E4B1B1;
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 20px;
+}
+.campo {
+    font-family: 'Montserrat', sans-serif;
+}
+.datos {
+    width: 18rem;
+    height: 14rem;
+}
