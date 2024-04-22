@@ -1,186 +1,183 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miau Café</title>
-    <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link 
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" 
-        rel="stylesheet">
-    <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-        crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miau Café</title>
+  <link rel="stylesheet" href="./css/estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+
 <body>
   <div>
     <!--navbar-->
     <nav class="navbar navbar-expand-md navbar-danger fixed-top" style="background-color: #FDDCD3;">
-        <div class="container-fluid">
-           <a class="navbar-brand" href="#">
-              <img class="img-logo" src="./assets/img/logo.png " alt="Logo Miau Café" width="80" class="d-inline-block align-text-center mx-5">
-            Miau Café
-            </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="nav-options collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              <a class="nav-link" href="#staff">Nuestro staff</a>
-              <a class="nav-link" href="#adopta">Adoptá</a>
-              <a class="nav-link" href="#registrarse">Registrarse</a>
-              <a class="nav-link" href="#login" id="enlace_distint">Login</a>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="img-logo" src="./assets/img/logo.png " alt="Logo Miau Café" width="80"
+            class="d-inline-block align-text-center mx-5">
+          Miau Café
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="nav-options collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link" href="#staff">Nuestro staff</a>
+            <a class="nav-link" href="#adopta">Adoptá</a>
+            <a class="nav-link" href="#registrarse">Registrarse</a>
+            <a class="nav-link" href="#login" id="enlace_distint">Login</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-ride="carousel" data-bs-touch="false"
+    data-bs-interval="4000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row flex-row-reverse img-principal align-items-center px-5">
+          <div class="col text-center">
+            <h1 class="texto-principal">Café y gatitos</h1>
+            <p class="eslogan">Descubre este mágico lugar lleno de bebidas deliciosas y ronroneos en busca de un nuevo
+              hogar</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row flex-row-reverse img-secundaria align-items-center px-5">
+          <div class="col text-center">
+            <h1 class="texto-principal">Café y gatitos</h1>
+            <p class="eslogan">Descubre este mágico lugar lleno de bebidas deliciosas y ronroneos en busca de un nuevo
+              hogar</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row flex-row-reverse img-tercera align-items-center px-5">
+          <div class="col text-center">
+            <h1 class="texto-principal">Café y gatitos</h1>
+            <p class="eslogan">Descubre este mágico lugar lleno de bebidas deliciosas y ronroneos en busca de un nuevo
+              hogar</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Section cards -->
+    <section class="container d-flex justify-content-center align-items-stretch flex-column p-4 gap-3 ">
+      <div class="img-container d-flex justify-content-center align-self-center">
+        <img class="img-container-casa-gatito" src="./assets/img/casita-gato.jpg" alt srcset>
+      </div>
+      <div class="text-container p-4 bg-dark mb-2">
+        <p class="text-center text-light">En nuestro Cat Coffee, no solo
+          puedes
+          disfrutar de una deliciosa taza de café o té, también tienes
+          la oportunidad de conocer a tu amigo felino perfecto.
+          Ven a conocernos y si te enamoras, ¡puedes llevar uno a
+          casa!
+
+        </p>
+        <p class="text-center text-light"> ¿Cómo Adoptar? Llena el
+          formulario de
+          adopción que aparece junto con cada michi y habla con
+          nuestro personal sobre el proceso de adopción. Queremos
+          asegurarnos de que nuestros gatitos encuentren hogares
+          amorosos y permanentes.
+          Horario de Adopción: Lunes a Viernes: 10 am - 7 pm Sábados y
+          Domingos: 11 am - 5 pm
+        </p>
+      </div>
+    </section>
+
+    <section class="container bg-danger-subtle p-4">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4 g-4">
+        <div class="col">
+          <div class="card card-container">
+            <div class="img-card-container">
+              <img src="./assets/img/gatito-1.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Mochi</h5>
+              <p class="card-text">This is a longer card with
+                supporting text below as a natural lead-in to
+                additional content. This content is a little bit
+                longer.</p>
+              <button class="btn btn-primary btn-adoption">Adopta</button>
             </div>
           </div>
         </div>
-      </nav>
-</div>
-<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-ride="carousel" data-bs-touch="false" data-bs-interval="4000">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="row flex-row-reverse img-principal align-items-center px-5">
-          <div class="col text-center">
-             <h1 class="texto-principal">Café y gatitos</h1>
-             <p class="eslogan">Descubre este mágico lugar lleno de bebidas deliciosas y ronroneos en busca de un nuevo hogar</p>
-          </div>   
-       </div>
-    </div>
-    <div class="carousel-item">
-      <div class="row flex-row-reverse img-secundaria align-items-center px-5">
-          <div class="col text-center">
-             <h1 class="texto-principal">Café y gatitos</h1>
-             <p class="eslogan">Descubre este mágico lugar lleno de bebidas deliciosas y ronroneos en busca de un nuevo hogar</p>
-          </div>   
-       </div>
-    </div>
-    <div class="carousel-item">
-      <div class="row flex-row-reverse img-tercera align-items-center px-5">
-          <div class="col text-center">
-             <h1 class="texto-principal">Café y gatitos</h1>
-             <p class="eslogan">Descubre este mágico lugar lleno de bebidas deliciosas y ronroneos en busca de un nuevo hogar</p>
-          </div>   
-       </div>
-    </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-<!-- Section cards -->
-<section
-          class="container d-flex justify-content-center align-items-stretch flex-column p-4 gap-3 ">
-          <div
-              class="img-container d-flex justify-content-center align-self-center">
-              <img class="img-container-casa-gatito"
-                  src="./assets/img/casita-gato.jpg"
-                  alt srcset>
+        <div class="col">
+          <div class="card card-container">
+            <div class="img-card-container">
+              <img src="./assets/img/gatito-2.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Moli</h5>
+              <p class="card-text">This is a longer card with
+                supporting text below as a natural lead-in to
+                additional content. This content is a little bit
+                longer.</p>
+              <button class="btn btn-primary btn-adoption">Adopta</button>
+            </div>
           </div>
-          <div class="text-container p-4 bg-dark mb-2">
-              <p class="text-center text-light">En nuestro Cat Coffee, no solo
-                  puedes
-                  disfrutar de una deliciosa taza de café o té, también tienes
-                  la oportunidad de conocer a tu amigo felino perfecto.
-                  Ven a conocernos y si te enamoras, ¡puedes llevar uno a
-                  casa!
-
-              </p>
-              <p class="text-center text-light"> ¿Cómo Adoptar? Llena el
-                  formulario de
-                  adopción que aparece junto con cada michi y habla con
-                  nuestro personal sobre el proceso de adopción. Queremos
-                  asegurarnos de que nuestros gatitos encuentren hogares
-                  amorosos y permanentes.
-                  Horario de Adopción: Lunes a Viernes: 10 am - 7 pm Sábados y
-                  Domingos: 11 am - 5 pm
-              </p>
+        </div>
+        <div class="col">
+          <div class="card card-container">
+            <div class="img-card-container">
+              <img src="./assets/img/gatito-3.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Rachet</h5>
+              <p class="card-text">This is a longer card with
+                supporting text below as a natural lead-in to
+                additional content.</p>
+              <button class="btn btn-primary btn-adoption">Adopta</button>
+            </div>
           </div>
-      </section>
-
-      <section class="container bg-danger-subtle p-4">
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4 g-4">
-              <div class="col">
-                  <div class="card card-container">
-                      <div class="img-card-container">
-                      <img src="./assets/img/gatito-1.jpg"
-                          class="card-img-top" alt="...">
-                      </div>    
-                      <div class="card-body">
-                          <h5 class="card-title">Mochi</h5>
-                          <p class="card-text">This is a longer card with
-                              supporting text below as a natural lead-in to
-                              additional content. This content is a little bit
-                              longer.</p>
-                            <button class="btn btn-primary btn-adoption">Adopta</button> 
-                      </div>
-                  </div>
-              </div>
-              <div class="col">
-                  <div class="card card-container">
-                      <div class="img-card-container">
-                          <img src="./assets/img/gatito-2.jpg"
-                              class="card-img-top" alt="...">
-                          </div>    
-                      <div class="card-body">
-                          <h5 class="card-title">Moli</h5>
-                          <p class="card-text">This is a longer card with
-                              supporting text below as a natural lead-in to
-                              additional content. This content is a little bit
-                              longer.</p>
-                            <button class="btn btn-primary btn-adoption">Adopta</button> 
-                      </div>
-                  </div>
-              </div>
-              <div class="col">
-                  <div class="card card-container">
-                      <div class="img-card-container">
-                          <img src="./assets/img/gatito-3.jpg"
-                              class="card-img-top" alt="...">
-                          </div>    
-                      <div class="card-body">
-                          <h5 class="card-title">Rachet</h5>
-                          <p class="card-text">This is a longer card with
-                              supporting text below as a natural lead-in to
-                              additional content.</p>
-                            <button class="btn btn-primary btn-adoption">Adopta</button> 
-                      </div>
-                  </div>
-              </div>
-              <div class="col">
-                  <div class="card card-container">
-                      <div class="img-card-container">
-                          <img src="./assets/img/gatito-1.jpg"
-                              class="card-img-top" alt="...">
-                          </div>    
-                      <div class="card-body">
-                          <h5 class="card-title">Ray</h5>
-                          <p class="card-text">This is a longer card with
-                              supporting text below as a natural lead-in to
-                              additional content. This content is a little bit
-                              longer.</p>
-                            <button class="btn btn-adoption btn-primary">Adopta</button> 
-                      </div>
-                  </div>
-              </div>
+        </div>
+        <div class="col">
+          <div class="card card-container">
+            <div class="img-card-container">
+              <img src="./assets/img/gatito-1.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Ray</h5>
+              <p class="card-text">This is a longer card with
+                supporting text below as a natural lead-in to
+                additional content. This content is a little bit
+                longer.</p>
+              <button class="btn btn-adoption btn-primary">Adopta</button>
+            </div>
           </div>
-          <div class="button-div">
-              <a href="#">
-              <button class="btn-show-all btn btn-light mt-3">Ver todos</button>
-              </a>
-          </div>
-      </section>
+        </div>
+      </div>
+      <div class="button-div">
+        <a href="#">
+          <button class="btn-show-all btn btn-light mt-3">Ver todos</button>
+        </a>
+      </div>
+    </section>
 
     <!--final section-->
     <div class="container testimonios">
@@ -192,7 +189,8 @@
             <div class="card-body">
               <p class="card-text text-center">María</p>
               <p class="card-text text-center testimonio">“Adopté a mi gato, Luna, del café. Ella es la luz de mi vida y
-                estoy muy agradecida por haberla encontrado allí. El personal fue muy servicial durante todo el proceso de
+                estoy muy agradecida por haberla encontrado allí. El personal fue muy servicial durante todo el proceso
+                de
                 adopción.”</p>
             </div>
           </div>
@@ -289,22 +287,25 @@
             </div>
           </div>
           <div class="col-md-12 text-center">
-            <p class="mt-2 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
-              <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512"/>
-            </svg>Derechos reservados - 2024</p>
+            <p class="mt-2 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+                <path
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512" />
+              </svg>Derechos reservados - 2024</p>
           </div>
         </div>
       </div>
     </footer>
 
-<!-- Scripts de Bootstrap -->
-<script src="https://unpkg.com/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://unpkg.com/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <!-- Scripts de Bootstrap -->
+    <script src="https://unpkg.com/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" 
-integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
-crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
 
-  
+
 </body>
+
 </html>
