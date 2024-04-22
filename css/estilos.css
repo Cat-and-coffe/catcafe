@@ -22,6 +22,16 @@
     height: 96vh;
  }
 
+ .img-secundaria {
+    background-image: url(../assets/img/img-sec.jpeg);
+    background-color: rgb(158, 163, 163);
+    background-blend-mode:soft-light;
+    background-position:top ;
+    background-size:cover;
+    margin-top: 10px;
+    height: 98vh;
+ }
+
  .texto-principal{
     font-family: 'Playfair Display', serif !important;
     font-weight: bold;
