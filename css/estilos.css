@@ -73,7 +73,7 @@ p {
 }
 
 .img-container{
-    max-height: 800;
+    max-height: 800px;
 }
 /*Section1*/
 /*Section cards*/   
@@ -112,7 +112,7 @@ p {
 }
 
 #btn-adoption{
-    width: 14rem;
+    width: 10rem;
     background-color: rgb(231, 93, 169);
     color: #fff;
     font-weight: bold;
