@@ -23,7 +23,7 @@
     background-image: url(../assets/img/header-img3.jpg);
     background-color: rgb(158, 163, 163);
     background-blend-mode:soft-light;
-    background-position:top ;
+    background-position:center ;
     background-size:cover;
     height: 96vh;
  }
@@ -32,9 +32,9 @@
     background-image: url(../assets/img/header-img2.jpeg);
     background-color: rgb(158, 163, 163);
     background-blend-mode:soft-light;
-    background-position:top ;
+    background-position-y: 60% ;
     background-size:cover;
-    height: 98vh;
+    height: 96vh;
  }
 
  .img-tercera {
@@ -43,7 +43,7 @@
     background-blend-mode:soft-light;
     background-position:top ;
     background-size: cover;
-    height: 98vh;
+    height: 96vh;
  }
 
  .texto-principal{
