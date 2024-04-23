@@ -1,0 +1,191 @@
+.navbar {
+    font-family: 'Playfair Display', serif !important;
+    font-weight: bold;
+    color: #645555;
+    
+}
+
+.navbar-brand{
+    font-size: 27px;
+}
+
+.img-logo{
+    margin: 0px 20px 0px 40px;
+    width: auto;
+    height: 5rem;
+}
+
+.carousel{
+    margin-top: 50px;
+}
+
+.img-principal {
+    background-image: url(../assets/img/header-img3.jpg);
+    background-color: rgb(158, 163, 163);
+    background-blend-mode:soft-light;
+    background-position:top ;
+    background-size:cover;
+    height: 96vh;
+ }
+
+ .img-secundaria {
+    background-image: url(../assets/img/header-img2.jpeg);
+    background-color: rgb(158, 163, 163);
+    background-blend-mode:soft-light;
+    background-position:top ;
+    background-size:cover;
+    height: 98vh;
+ }
+
+ .img-tercera {
+    background-image: url(../assets/img/header-img.jpg);
+    background-color: rgb(158, 163, 163);
+    background-blend-mode:soft-light;
+    background-position:top ;
+    background-size: cover;
+    height: 98vh;
+ }
+
+ .texto-principal{
+    font-family: 'Playfair Display', serif !important;
+    font-weight: bold;
+    color: black;
+    font-size: 80px;
+    margin-bottom: 30px;
+ }
+
+ .eslogan{
+    font-family: 'Playfair Display', serif !important;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+ }
+
+
+p { 
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+     
+/*Section1*/         
+.img-container-casa-gatito{
+    width: 100%;
+}
+
+.img-container{
+    max-height: 800;
+}
+/*Section1*/
+/*Section cards*/   
+
+.card-container{
+    height: 100% !important;
+    align-items: center;
+    
+}
+
+.img-card-container{
+    height: 500px;
+    width: 100%;
+}
+
+.card-img-top{
+    height: 100%;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.card-title{
+    width: 100%;
+    text-align: center;
+}
+
+.card-text{
+    text-align: left;
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+#btn-adoption{
+    width: 14rem;
+    background-color: rgb(231, 93, 169);
+    color: #fff;
+    font-weight: bold;
+    border-color: unset;
+    margin-bottom: 12px;
+    
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-show-all{
+    width: 20rem;
+}
+
+/*Section cards*/  
+
+/*Final section*/
+.testimonios{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90%;
+    margin-bottom: 5%;
+}
+.titulo-testimonios {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.individual {
+    max-width: 80%;
+    height: 100% !important;
+}
+footer {
+    background-color: #E4B1B1;
+    color: #645555;
+}
+.list-unstyled{
+    color:white;
+}
+.list-unstyled a{
+    color:white;
+}
+.marca {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    color: #645555;
+    padding-top: 3%;
+}
+.btn-enviar{
+    background-color: #E4B1B1;
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 20px;
+}
+.campo {
+    font-family: 'Montserrat', sans-serif;
+}
+.datos {
+    width: 18rem;
+    height: 14rem;
+}
+.adoptar{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media (max-width:991px){
+    .adopt-cards{
+        gap: 1rem;
+    }
+}
