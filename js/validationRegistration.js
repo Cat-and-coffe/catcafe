@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
             event.preventDefault();
         }
     });
-    const validateForm = () => validateUserField('nombre', 'El usuario es obligatorio') 
-    && validateUserField('apellido', 'El usuario es obligatorio') 
+    const validateForm = () => validateUserField('nombre', 'El nombre es obligatorio') 
+    && validateUserField('apellido', 'El apellido es obligatorio') 
     && validateDateField('fechaNacimiento', 'La fecha de nacimiento es obligatoria') 
     && validateEmailField('email', 'El email es obligatorio') 
     && validateUserField('usuario', 'El usuario es obligatorio') 
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setErrorFor(field, 'Solo se puede introducir letras');
             return false; 
         } else if (value.length < 3 || value.length > 10) {
-            setErrorFor(field, 'El usuario debe tener entre 3 y 10 caracteres');
+            setErrorFor(field, 'El campo debe tener entre 3 y 10 caracteres');
             return false;
         } else {
            setSuccessFor(field);
