@@ -1,12 +1,16 @@
-const TIMEOUT_DURATION = 5000;
+function wait(timeout) {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => reject(new Error('Tiempo de espera agotado')), timeout);
+    });
+  }
+
 async function fetchData() {
+    const TIMEOUT_DURATION = 5000;
     showLoadingIndicator();
     try {
         const response = await Promise.race([
             axios.get('https://api.sampleapis.com/coffee/hot'),
-            new Promise((resolve, reject) =>
-                setTimeout(() => reject(new Error('Tiempo de espera agotado')), TIMEOUT_DURATION)
-            )
+            wait(TIMEOUT_DURATION)
         ]);
         if (response) {
             const filteredData = response.data.filter(item => item.id >= 3 && item.id <= 8);
