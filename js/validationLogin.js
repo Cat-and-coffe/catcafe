@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setErrorFor(field, 'Solo se puede introducir letras');
             return false; 
         } else if (value.length < 3 || value.length > 10) {
-            setErrorFor(field, 'El usuario debe tener entre 3 y 10 caracteres');
+            setErrorFor(field, 'El usuario debe tener entre 3 y 10 carácteres');
             return false;
         } else {
            setSuccessFor(field);
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setErrorFor(field, errorMessage); 
             return false;
         } else if (value.length < 3 || value.length > 15) {
-            setErrorFor(field, 'La contraseña debe tener entre 3 y 10 caracteres');
+            setErrorFor(field, 'La contraseña debe tener entre 3 y 10 carácteres');
             return false;
         } else {
            setSuccessFor(field); 

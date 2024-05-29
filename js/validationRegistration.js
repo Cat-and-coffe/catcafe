@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setErrorFor(field, 'Solo se puede introducir letras');
             return false; 
         } else if (value.length < 3 || value.length > 10) {
-            setErrorFor(field, 'El campo debe tener entre 3 y 10 caracteres');
+            setErrorFor(field, 'El campo debe tener entre 3 y 10 carácteres');
             return false;
         } else {
            setSuccessFor(field);
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setErrorFor(field, 'La fecha de nacimiento no puede ser mayor a la fecha actual');
             return false;
         } else if (birthDate < minDate) {
-            setErrorFor(field, 'Ingrese una fecha de nacimiento valida');
+            setErrorFor(field, 'Ingrese una fecha de nacimiento válida');
             return false;             
         } else {
            setSuccessFor(field); 
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setErrorFor(field, errorMessage); 
             return false;
         } else if (value.length < 3 || value.length > 15) {
-            setErrorFor(field, 'La contraseña debe tener entre 3 y 10 caracteres');
+            setErrorFor(field, 'La contraseña debe tener entre 3 y 10 carácteres');
             return false;
         } else {
            setSuccessFor(field); 

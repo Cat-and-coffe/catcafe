@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     && validateDateField('fechaNacimiento', 'La fecha de nacimiento es obligatoria') 
     && validateDNIField('dni', 'El DNI es obligatorio') 
     && validateAdressField('direccion', 'La direccion es obligatoria') 
-    && validatePhoneField('telefono', 'El telefono es obligatorio') 
+    && validatePhoneField('telefono', 'El teléfono es obligatorio') 
     && validateEmailField('email', 'El email es obligatorio') 
     && validateUserField('nombreMichi', 'El nombre del michi es obligatorio') 
 
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setErrorFor(field, 'Solo se puede introducir letras');
             return false; 
         } else if (value.length < 3 || value.length > 10) {
-            setErrorFor(field, 'El campo debe tener entre 3 y 10 caracteres');
+            setErrorFor(field, 'El campo debe tener entre 3 y 10 carácteres');
             return false;
         } else {
            setSuccessFor(field);
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setErrorFor(field, 'La fecha de nacimiento no puede ser mayor a la fecha actual');
             return false;
         } else if (birthDate < minDate) {
-            setErrorFor(field, 'Ingrese una fecha de nacimiento valida');
+            setErrorFor(field, 'Ingrese una fecha de nacimiento válida');
             return false;             
         } else {
            setSuccessFor(field); 
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setErrorFor(field, 'El campo debe contener al menos una letra');
             return false;
         } else if (value.length < 3 || value.length > 100) {
-            setErrorFor(field, 'El campo debe tener entre 3 y 100 caracteres');
+            setErrorFor(field, 'El campo debe tener entre 3 y 100 carácteres');
             return false;
         } else {
            setSuccessFor(field); 
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setErrorFor(field, errorMessage); 
             return false;
         } else if (!numericRegex.test(value)) {
-            setErrorFor(field, 'Ingrese un telefono válido');
+            setErrorFor(field, 'Ingrese un teléfono válido');
             return false;
         } else if (!phoneRegex.test(value)) {
             setErrorFor(field, 'Ingrese un número de teléfono válido');
